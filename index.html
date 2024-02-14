@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criptografia</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="imagens/Gengar-PNG-Background.png" type="image/x-icon">
+</head>
+<body>
+
+    <main class="container">
+        <header class="cabecalho">
+            <img src="imagens/Gengar-PNG-Background.png" alt="">
+            <h1>Criptografia Rápida</h1>
+        </header>
+
+        <div class="input-container">
+            <div class="input">
+                <textarea  id="input-texto" placeholder="Digite sua mensagem aqui..."></textarea>
+                <p>Utilizar apenas letras minúscula, não utilizar acentos e nem caracteres especiais</p>
+            </div>
+
+            <div id="output">
+                <img src="imagens/Gengar-PNG-Background.png" alt="">
+                <h2>Mensagem Não encontrada!</h2>
+                <span>Digite seu texto para Complicar ou Descomplicar</span>
+                
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="container-btn">
+                <button onclick="criptografar()" class="btn-cripto">Complicar</button>
+                <button onclick="descriptografar()" class="btn-descripto">Descomplicar</button>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="rodape">
+        <div class="icones">
+            <a href="https://www.linkedin.com/in/juan-pablo-ferreira-nunes-2bb9512ab"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="https://github.com/JuanPabloky"><ion-icon name="logo-github"></ion-icon></a>
+        </div>
+        <h3>Desenvolvido por Juan Pablo</h3>
+    </footer>
+
+
+    <script src="app.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
